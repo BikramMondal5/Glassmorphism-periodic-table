@@ -1,0 +1,220 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: consolas;
+    background-image: url("Background.webp");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #E0E0E0;
+    backdrop-filter: blur(9px);
+    
+
+}
+
+.main-container {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+h1 {
+    text-decoration: underline;
+    color: rgb(78, 65, 65);
+}
+
+.element {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: rgba(56,109,241,0.05);
+    /* backdrop-filter: blur(10px); */
+    border: 1px solid rgba(255,255,255,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 5px 0 0;
+    color: black;
+    transition: backdrop-filter 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease;
+    font-weight: bolder;
+}
+
+.element:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    transform: scale(1.5);
+    border: 1px solid rgba(255,255,255,0.1);
+
+}
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.transitional_element {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-image: url("logo.jpeg");
+    background-size: cover;
+    position: absolute;
+    top: 30px;
+    left: 24px;
+
+}
+.tr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-block {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: rgba(56,109,241,0.05);
+    /* backdrop-filter: blur(10px); */
+    border: 1px solid rgba(255,255,255,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: bolder;
+    margin: 5px 5px 0 0;
+    transition: transform 0.3s ease;
+}
+
+.d-block:hover {
+    box-shadow: 0 8px 16px rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    transform: scale(1.5);
+}
+
+.p-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 27px;
+}
+
+.p-blockelements {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: rgba(56,109,241,0.05);
+    /* backdrop-filter: blur(10px); */
+    border: 1px solid rgba(255,255,255,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: bolder;
+    margin: 5px 5px 0 0;
+    transition: transform 0.3s ease;
+}
+
+.p-blockelements:hover {
+    box-shadow: 0 8px 16px rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    transform: scale(1.5);
+}
+
+#metalloid {
+    color: black;
+    background-color: rgba(56,109,241,0.05);
+    /* backdrop-filter: blur(10px); */
+    font-weight: bolder;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+#artificial {
+    color: black;
+    font-weight: bolder;
+}
+
+#partificial {
+    background-color: rgba(56,109,241,0.05);
+    /* backdrop-filter: blur(10px); */
+    border: 1px solid rgba(255,255,255,0.1);
+    color: black;
+    font-weight: bolder;
+}
+
+#inert {
+    background-color: rgba(56,109,241,0.05);
+    /* backdrop-filter: blur(10px); */
+    border: 1px solid rgba(255,255,255,0.1);
+    color: black;
+    font-weight: bolder;
+}
+
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    gap: 30px;
+}
+
+div:hover {
+    cursor: pointer;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: rgba(56,109,241,0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.1);
+    
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    padding: 20px;
+    display: none;
+}
+
+.modal-content {
+    color: black;
+    text-align: center;
+}
+
+#close-btn {
+    margin-top: 20px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #333333; /* Dark Gray */
+    color: #FFFFFF; /* White text */
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#close-btn:hover {
+    background-color: #4F4F4F; /* Slightly lighter Gray for hover effect */
+}
