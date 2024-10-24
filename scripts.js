@@ -23,7 +23,7 @@ async function loadElementData() {
   });
 
   
-  document.getElementById("Button").addEventListener("click", function() {
+  document.getElementById("Button").addEventListener("Onclick", function() {
     window.location.href = "https://bikrammondal5.github.io/Mendeleev-table/"; 
   });
 
