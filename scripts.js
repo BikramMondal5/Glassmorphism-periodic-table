@@ -21,6 +21,13 @@ async function loadElementData() {
       });
     });
   });
+
+  
+  document.getElementById("Button").addEventListener("click", function() {
+    window.location.href = "https://bikrammondal5.github.io/Mendeleev-table/"; 
+  });
+
+
   
   // Function to show the modal with element info
   function showElementInfo(elementSymbol) {
