@@ -6,7 +6,7 @@
    ## Features
    
    - **Interactive Elements:** Hover over elements to see effects like scaling and shadows.
-   - **Modal Interaction:** Clicking on an element will display detailed information about the element and its 3D model.
+   - **Modal Interaction:** Clicking on an element will display detailed information about the element and its `3D model`.
    
    ![Alt text](image.jpg)
 
