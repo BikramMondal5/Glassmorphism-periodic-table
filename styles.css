@@ -17,8 +17,6 @@ body {
     background-repeat: no-repeat;
     color: #E0E0E0;
     backdrop-filter: blur(3px);
-    
-
 }
 
 .button {
@@ -106,6 +104,8 @@ h1 {
     transition: backdrop-filter 0.3s ease, box-shadow 0.3s ease;
     transition: transform 0.3s ease;
     font-weight: bolder;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+    z-index: 500;
 }
 
 .element:hover {
@@ -159,6 +159,8 @@ h1 {
     font-weight: bolder;
     margin: 5px 5px 0 0;
     transition: transform 0.3s ease;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+    z-index: 500;
 }
 
 .d-block:hover {
@@ -189,6 +191,8 @@ h1 {
     font-weight: bolder;
     margin: 5px 5px 0 0;
     transition: transform 0.3s ease;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+    z-index: 500;
 }
 
 .p-blockelements:hover {
@@ -203,6 +207,8 @@ h1 {
     background-color: rgba(56,109,241,0.05);
     font-weight: bolder;
     border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+    z-index: 500;
 }
 
 #artificial {
@@ -215,6 +221,8 @@ h1 {
     border: 1px solid rgba(255,255,255,0.1);
     color: black;
     font-weight: bolder;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+    z-index: 500;
 }
 
 #inert {
@@ -222,6 +230,8 @@ h1 {
     border: 1px solid rgba(255,255,255,0.1);
     color: black;
     font-weight: bolder;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+    z-index: 500;
 }
 
 
@@ -246,7 +256,6 @@ div:hover {
     background-color: rgba(56,109,241,0.05);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255,255,255,0.1);
-    
     border-radius: 10px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
     z-index: 1000;
