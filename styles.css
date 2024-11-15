@@ -99,7 +99,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5px 5px 0 0;
+    margin: 7px 7px 0 0;
     color: black;
     transition: backdrop-filter 0.3s ease, box-shadow 0.3s ease;
     transition: transform 0.3s ease;
@@ -157,7 +157,7 @@ h1 {
     align-items: center;
     color: black;
     font-weight: bolder;
-    margin: 5px 5px 0 0;
+    margin: 7px 7px 0 0;
     transition: transform 0.3s ease;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
     z-index: 500;
@@ -189,7 +189,7 @@ h1 {
     align-items: center;
     color: black;
     font-weight: bolder;
-    margin: 5px 5px 0 0;
+    margin: 7px 7px 0 0;
     transition: transform 0.3s ease;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
     z-index: 500;
@@ -245,6 +245,46 @@ h1 {
 
 div:hover {
     cursor: pointer;
+}
+
+.actinoids-row1{
+   background-color: transparent;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: black;
+   margin-top: 30px;
+}
+
+.actinoids-row2{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+ }
+.actinoids{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: rgba(56,109,241,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: bolder;
+    margin: 5px 5px 0 0;
+    transition: transform 0.3s ease;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+    z-index: 500;
+}
+
+.actinoids:hover{
+    box-shadow: 0 8px 16px rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    transform: scale(1.5);
 }
 
 .modal {
