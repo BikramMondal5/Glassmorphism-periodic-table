@@ -1,7 +1,6 @@
-# Glassmorphism-periodic-table
-   ## Description
-   
-   This is a modern periodic table built using **HTML**, **CSS**, and **JavaScript**. It visually represents all elements with hover effects, and each element is styling with glass like effect. 
+# Glassmorphism-table
+
+This is a modern periodic table built using **HTML**, **CSS**, and **JavaScript**. It visually represents all elements with hover effects, and each element is styling with glass like effect. 
    
    ## Features
    
